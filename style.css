@@ -81,30 +81,24 @@ img {
 @media  screen and (max-width: 420px) {
   #lezioni .row>.left, 
   #lezioni .row>.right {
-    float: none;
     width: 100%;
     background-color: rgba(242,242,205,255);
   }
 .row {
-  justify-content: center;
-  flex-direction: column;
-  align-content: center;
-  margin-top: 100px;
   width: 100%;
-}
+  margin-top: 0;
+ }
 
 #steps .row>.left, 
 #steps .row>.central, 
 #steps .row>.right {
-  float: none;
-  flex-basis: 15%;
   width: 100%;
-  padding-bottom: 5%;
+  padding: 20px;
 }
 
 #why .row>.first, #why .row>.second, #why .row>.third {
   background-color: rgba(242,242,205,255);
   margin: 0;
-  padding-top: 10%;
-}
+  padding: 20px;
+ }
 }
